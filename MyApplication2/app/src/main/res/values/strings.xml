@@ -1,6 +1,11 @@
 <resources>
-    <string name="app_name">My Application</string>
-    <string name="splash_screen">WELCOME BACK</string>
+    <string name="app_name">My Languages</string>
+    <string name="splash_screen">SPLASH SCREEN</string>
     <string name="todo">TODO</string>
-    <string name="item1">item1</string>
+    <string name="item1">Favourites</string>
+    <string name="item2">item2</string>
+    <string name="splash">Splash</string>
+    <string name="ohk">ohk</string>
+    <string name="language_name">Language Name</string>
+
 </resources>
