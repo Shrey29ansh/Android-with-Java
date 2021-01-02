@@ -13,11 +13,12 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text=""
-        android:textSize="48sp"
+        android:textSize="36sp"
         app:layout_anchorGravity="bottom|center" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/myList"
+        android:layout_marginHorizontal="16dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_behavior = "@string/appbar_scrolling_view_behavior"/>

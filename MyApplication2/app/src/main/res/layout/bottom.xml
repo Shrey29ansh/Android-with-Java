@@ -5,7 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="8dp">
+    android:padding="16dp"
+    android:fadeScrollbars="false"
+    android:scrollbars="vertical"
+    >
 
     <TextView
         android:id="@+id/nameLanguage"
@@ -16,8 +19,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:gravity="center_horizontal"
         android:textSize="36sp"
+        android:gravity="center_horizontal"
         android:textColor="#BE9036"
         android:textAllCaps="true"
         android:textStyle="bold"/>
@@ -30,8 +33,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:gravity="center_horizontal"
-        android:textSize="18sp"
+        android:textSize="24sp"
+        android:alpha="0.7"
         android:textColor="#02080F "
         android:textStyle="bold"/>
 </LinearLayout>

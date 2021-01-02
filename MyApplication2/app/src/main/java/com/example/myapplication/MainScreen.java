@@ -20,8 +20,8 @@ import java.util.ArrayList;
 public class MainScreen extends AppCompatActivity {
     RecyclerView list_name;
     MyAdapter adapter;
-    public static String[] data  ={"C++", "Python", "C", "JAVA", "Ruby", "Javascript"};
-    public static boolean[] isFavourite = {false,false,false,false,false,false};
+    public static String[] data  ={"C++", "Python", "C", "JAVA", "Ruby", "Javascript","Dart","GO","PHP","Kotlin","TypeScript"};
+    public static boolean[] isFavourite = {false,false,false,false,false,false,false,false,false,false,false};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
